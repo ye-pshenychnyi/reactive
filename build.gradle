@@ -20,6 +20,8 @@ repositories {
 
 dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-web'
+    implementation 'org.springframework.boot:spring-boot-starter-integration'
+    implementation 'org.springframework.integration:spring-integration-jms:5.3.2.RELEASE'
     compile 'io.projectreactor:reactor-core'
     compile 'org.springframework.boot:spring-boot-starter-activemq'
     compile 'org.apache.activemq:activemq-broker'
